@@ -1,0 +1,27 @@
+body {
+  background-color: #ffe6e6;
+  font-family: "Philosopher", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.image_audrey {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.year {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
