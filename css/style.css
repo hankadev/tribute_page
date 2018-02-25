@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe6e6;
+  background-color: #fdd;
   font-family: "Philosopher", sans-serif;
   box-sizing: border-box;
   max-width: 900px;
@@ -21,6 +21,12 @@ header {
 
 figure {
   margin: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 4px;
+  line-height: 1.5;
 }
 
 .image_audrey {
