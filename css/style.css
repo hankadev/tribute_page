@@ -1,10 +1,26 @@
 body {
   background-color: #ffe6e6;
   font-family: "Philosopher", sans-serif;
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 10px;
 }
 
 header {
   text-align: center;
+}
+
+.thumbnail, .life, .quote {
+  width: 80%;
+  margin-left: 10%;
+}
+
+figure {
+  margin: 0;
 }
 
 .image_audrey {
@@ -21,7 +37,36 @@ figcaption {
   font-weight: bold;
 }
 
+blockquote {
+  font-style: italic;
+  clear: both;
+  padding-top: 20px;
+}
+
+.author {
+  color: #777;
+}
+
 footer {
   text-align: center;
   font-size: 0.8em;
+  border-top: 1px solid #777;
+  width: 80%;
+  margin-left: 10%;
+}
+
+@media screen and (min-width: 800px) {
+  .life {
+    position: relative;
+  }
+  .movies {
+    display: inline-block;
+    width: 40%;
+    float: left;
+  }
+  .unicef {
+    display: inline-block;
+    width: 60%;
+    float: left;
+  }
 }
