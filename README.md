@@ -3,7 +3,7 @@ This is my implementation of [Free Code Camp's](https://www.freecodecamp.org/) T
 
 I did not used any library. I built this project using my HTML, CSS and media queries skills.
 
-[view project in browser](https://hanny21.github.io/tribute_page/)
+[view project in browser](https://hankadev.github.io/tribute_page/)
 
 ## Objective
 Built an app that is functionally similar to [this](https://codepen.io/freeCodeCamp/full/NNvBQW).
